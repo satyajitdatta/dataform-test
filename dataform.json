@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "poc-dna-retailsearch-11372",
+  "defaultLocation": "US"
+}
+    

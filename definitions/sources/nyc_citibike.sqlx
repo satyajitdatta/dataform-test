@@ -1,7 +1,0 @@
-config {
-  type: "declaration",
-  database: "bigquery-public-data",
-  schema: "new_york_citibike",
-  name: "citibike_trips",
-  description: "New York bicycle rentals"
-}

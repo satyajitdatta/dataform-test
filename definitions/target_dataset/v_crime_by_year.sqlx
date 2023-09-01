@@ -1,0 +1,10 @@
+config {
+    type: "view",
+    database: "dataform-blog",
+    schema: "target_dataset",
+    name: "v_crime_by_year",
+}
+SELECT year AS `Year`,
+SUM(value) AS `No_of_Crimes`  
+FROM ${ref("london_crime","crime_by_lsoa")}
+GROUP BY 1

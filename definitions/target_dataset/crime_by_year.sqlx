@@ -1,0 +1,8 @@
+config {
+    type: "table",
+    database: "poc-dna-retailsearch-11372",
+    schema: "target_dataset",
+    name: "crime_by_year",
+}
+SELECT *
+FROM ${ref("target_dataset","v_crime_by_year")}

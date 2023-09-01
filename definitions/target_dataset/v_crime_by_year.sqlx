@@ -1,6 +1,6 @@
 config {
     type: "view",
-    database: "dataform-blog",
+    database: "poc-dna-retailsearch-11372",
     schema: "target_dataset",
     name: "v_crime_by_year",
 }
